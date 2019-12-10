@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-12-10T08:53:55.621Z'
+    - stylus > debug:
+        patched: '2019-12-10T08:53:55.621Z'
+  'npm:extend:20180424':
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-12-10T08:53:55.621Z'
+  'npm:hoek:20180212':
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-12-10T08:53:55.621Z'
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-12-10T08:53:55.621Z'
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-12-10T08:53:55.621Z'
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-12-10T08:53:55.621Z'
+  'npm:ms:20170412':
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2019-12-10T08:53:55.621Z'
+    - stylus > debug > ms:
+        patched: '2019-12-10T08:53:55.621Z'
+  'npm:qs:20170213':
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2019-12-10T08:53:55.621Z'
+  'npm:stringstream:20180511':
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-12-10T08:53:55.621Z'
+  'npm:tough-cookie:20170905':
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-12-10T08:53:55.621Z'
+  'npm:tunnel-agent:20170305':
+    - buble-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2019-12-10T08:53:55.621Z'
